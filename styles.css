@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+:root{
+    --primary-color: #2563EB;
+    --new-color: #E5E7EB;
+    --white-col: #64748B;
+    --new-offset: #06B6D4;
+
+
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.brand{
+    justify-content: center;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 36px;
+    max-height: 1rem;
+    font-weight: bolder;
+    color: var(--new-offset) ; 
+}
+
+.brand-head{
+    color: var(--white-col) ;
+}
+
+.container{
+    margin: auto;
+    max-width: 800px;
+    font-size: large;
+}
+
+
+.hero-new{
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 36px;
+    max-height: 1rem;
+    font-weight: bolder;
+    color: var(--new-offset) ; 
+}
+
+
+.img{
+    max-width: 360px;
+    display: block;
+    margin: auto;
+}
+
+
+.sector{
+    display: flex;
+    min-height: 25vh;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background-color: var(--new-color);
+}
+
+
+.list-line {
+    border: .1rem solid black;
+    border-radius: 30px;
+    margin: 1.5rem;
+    font-size: 18px;
+    padding: 9.5px 10.1px;
+    width: 8rem;
+    text-align: center;
+    color: white;
+    background: rgba(221, 221, 221, 0.2);
+    text-shadow: 0 0 0.1rem rgb(250, 250, 250);
+}
+
+.link-list  {
+    color: black;
+
+}
+
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.new{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--new-color);
+}
+
+.primary{
+    background-color: var(--new-offset);
+    border-radius: 0.5rem;
+    color: white;
+
+}
+
+.secondary{
+    color: var(--new-offset);
+    border-radius: 0.5rem;
+    border: 1px solid var(--new-offset);
+    
+}
+
+.section h2{
+    text-align: center;
+}
+
+.section{
+    padding: 2rem;
+}
+
+.sec{
+    text-align: left;
+    padding: 1rem;
+}
+
+.sec-new{
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+    font-size: 18px;
+}
+
+
+.op{
+    font-weight: bolder;
+    padding: 2rem;
+    font-style: italic;
+}
+
+.footer-second{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 2rem;
+}
